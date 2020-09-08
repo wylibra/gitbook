@@ -12,3 +12,7 @@ node -v
 nvm use 8
 gitbook serve
 ```
+
+### 部署书籍
+```
+```
