@@ -4,6 +4,7 @@
 * [日常汇总](chapter1/README.md)
     * [前端](chapter1/section1.1.md)
     * [测试](chapter1/section1.2.md)
+    * [随手记](chapter1/section1.3.md)
 * [网站资源](chapter2/README.md)
     * [前端](chapter2/section2.1.md)
     * [其他](chapter2/section2.2.md)
