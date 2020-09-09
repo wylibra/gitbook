@@ -18,4 +18,46 @@ Vue.prototype.$message('success')
 ```
 
 
-### 2.
+### 2.axios添加请求拦截器
+
+```
+import axios from 'axios';
+
+const service = axios.create({
+  baseURL: host, // 代理
+  timeout: 15000 // 请求超时时间
+})
+
+// 添加请求拦截器
+service.interceptors.request.use(
+  function (config) {
+    console.log(userInfo);
+
+    //统一参数 post请求
+    let userInfo = localStorage.getItem("userInfo") ? JSON.parse(localStorage.getItem("userInfo")) : '';
+    if (config.data) {
+      config.data.createId = userInfo.userId;
+    }
+    //统一参数 get请求
+    if (config.params) {
+      config.params.createId = userInfo.userId;
+    }
+    // 统一参数 headers
+    if (config) {
+      if (!path.includes(config.url)) {
+        const token = localStorage.getItem('token')
+        const baseSet = {
+          'Authorization': 'Bearer ' + token
+        }
+        config.headers = Object.assign({}, baseSet, config.headers)
+      }
+    }
+    return config;
+  },
+  function (error) {
+    // 对请求错误做些什么
+    return Promise.reject(error);
+  }
+);
+```
+
