@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>前端 · GitBook</title>
+        <title>学习 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="section1.2.html" />
+    <link rel="next" href="section3.1.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="../chapter2/section2.2.html" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="../chapter1/">
             
-                <a href="./">
+                <a href="../chapter1/">
             
                     
                     日常汇总
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="section1.1.html">
+        <li class="chapter " data-level="1.2.1" data-path="../chapter1/section1.1.html">
             
-                <a href="section1.1.html">
+                <a href="../chapter1/section1.1.html">
             
                     
                     前端
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="section1.2.html">
+        <li class="chapter " data-level="1.2.2" data-path="../chapter1/section1.2.html">
             
-                <a href="section1.2.html">
+                <a href="../chapter1/section1.2.html">
             
                     
                     测试
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="section1.3.html">
+        <li class="chapter " data-level="1.2.3" data-path="../chapter1/section1.3.html">
             
-                <a href="section1.3.html">
+                <a href="../chapter1/section1.3.html">
             
                     
                     随手记
@@ -205,9 +205,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../chapter3/">
+        <li class="chapter active" data-level="1.4" data-path="./">
             
-                <a href="../chapter3/">
+                <a href="./">
             
                     
                     学习
@@ -219,9 +219,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../chapter3/section3.1.html">
+        <li class="chapter " data-level="1.4.1" data-path="section3.1.html">
             
-                <a href="../chapter3/section3.1.html">
+                <a href="section3.1.html">
             
                     
                     操作系统
@@ -267,7 +267,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >前端</a>
+        <a href=".." >学习</a>
     </h1>
 </div>
 
@@ -282,62 +282,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x6C47;&#x603B;">&#x6C47;&#x603B;</h1>
-<blockquote>
-<p>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#x8BB0;&#x5F55;</p>
-</blockquote>
-<h3 id="1&#x3001;typescript-&#x91CC;&#x6709;&#x54EA;&#x4E9B;-javascript-&#x6CA1;&#x6709;&#x7684;&#x7C7B;&#x578B;&#xFF1F;">1&#x3001;typescript &#x91CC;&#x6709;&#x54EA;&#x4E9B; javascript &#x6CA1;&#x6709;&#x7684;&#x7C7B;&#x578B;&#xFF1F;</h3>
-<h4 id="11-any">1.1 any</h4>
-<p>&#x58F0;&#x660E;&#x4E3A; any &#x7684;&#x53D8;&#x91CF;&#x53EF;&#x4EE5;&#x8D4B;&#x4E88;&#x4EFB;&#x610F;&#x7C7B;&#x578B;&#x7684;&#x503C;</p>
-<h4 id="12-tuple">1.2 tuple</h4>
-<p>&#x5143;&#x7EC4;&#x7C7B;&#x578B;&#x7528;&#x6765;&#x8868;&#x793A;&#x5DF2;&#x77E5;&#x5143;&#x7D20;&#x6570;&#x91CF;&#x548C;&#x7C7B;&#x578B;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x5404;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x4E0D;&#x5FC5;&#x76F8;&#x540C;&#xFF0C;&#x5BF9;&#x5E94;&#x4F4D;&#x7F6E;&#x7684;&#x7C7B;&#x578B;&#x9700;&#x8981;&#x76F8;&#x540C;&#x3002;</p>
-<pre><code>let x: [string, number]
-x = [&apos;string&apos;, 0]; // &#x62A5;&#x9519;
-x = [0, &apos;string&apos;]; // &#x6B63;&#x5E38;
-</code></pre><h4 id="13--enum">1.3  enum</h4>
-<p>&#x679A;&#x4E3E;&#x7C7B;&#x578B;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x503C;&#x96C6;&#x5408;</p>
-<pre><code>enum Color {
-  Red,
-  Green,
-  Blue,
-}
-let c: Color = Color.Blue;
-console.log(c); // 2
-</code></pre><h4 id="14-void">1.4 void</h4>
-<p>&#x6807;&#x8BC6;&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x503C;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x8868;&#x793A;&#x65B9;&#x6CD5;&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x503C;</p>
-<pre><code>function hello(): void {}
-</code></pre><h4 id="15-never">1.5 never</h4>
-<p>never&#x662F;&#x5176;&#x4ED6;&#x7C7B;&#x578B;&#xFF08;&#x5305;&#x62EC;null &#x548C; undefined&#xFF09;&#x7684;&#x5B50;&#x7C7B;&#x578B;&#xFF0C;&#x662F;&#x4E0D;&#x4F1A;&#x53D1;&#x751F;&#x7684;&#x7C7B;&#x578B;&#x3002;</p>
-<pre><code>// &#x8FD4;&#x56DE; never &#x7684;&#x51FD;&#x6570;&#x7EC8;&#x70B9;&#x4E0D;&#x53EF;&#x8FBE;
-function error(message: string): never {
-  throw new Error(message);
-}
-
-// &#x63A8;&#x65AD;&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x662F; never
-function fail() {
-  return error(&apos;failed&apos;);
-}
-
-// &#x8FD4;&#x56DE; never &#x7684;&#x51FD;&#x6570;&#x7EC8;&#x70B9;&#x4E0D;&#x53EF;&#x8FBE;
-function infiniteLoop(): never {
-  while(true) {}
-}
-</code></pre><h4 id="16-unknown">1.6 unknown</h4>
-<p>&#x672A;&#x77E5;&#x7C7B;&#x578B;&#xFF0C;&#x4E00;&#x822C;&#x5728;&#x4F7F;&#x7528;&#x5230;&#x65F6;&#x624B;&#x52A8;&#x8F6C;&#x578B;
-&#x4E0A;&#x8FF0;&#x90FD;&#x662F;ts&#x7684;&#x57FA;&#x672C;&#x7C7B;&#x578B;</p>
-<h4 id="17-union">1.7 union</h4>
-<p>&#x8054;&#x5408;&#x7C7B;&#x578B;&#xFF0C;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x4E4B;&#x4E00;</p>
-<pre><code>string | number; // string &#x6216;number
-</code></pre><h4 id="18-intersection">1.8 intersection</h4>
-<p>&#x4EA4;&#x53C9;&#x7C7B;&#x578B;&#xFF0C;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x5408;&#x5E76;</p>
-<pre><code>{a: string;} &amp; {b: number;}
-</code></pre><h4 id="19-generics">1.9 Generics</h4>
-<p>&#x6CDB;&#x578B;</p>
-<pre><code>interface Backpack&lt;T&gt; {
-  add: (obj: T) =&gt; void;
-  get: () =&gt; T;
-}
-</code></pre><h3 id="2&#x3001;bfc-&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x89E6;&#x53D1;-bfc-&#x7684;&#x6761;&#x4EF6;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x6709;&#x54EA;&#x4E9B;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1F;">2&#x3001;BFC &#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x89E6;&#x53D1; BFC &#x7684;&#x6761;&#x4EF6;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x6709;&#x54EA;&#x4E9B;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1F;</h3>
+                                <h1 id="&#x5B66;&#x4E60;">&#x5B66;&#x4E60;</h1>
 
                                 
                                 </section>
@@ -365,12 +310,12 @@ function infiniteLoop(): never {
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 日常汇总">
+                <a href="../chapter2/section2.2.html" class="navigation navigation-prev " aria-label="Previous page: 其他">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="section1.2.html" class="navigation navigation-next " aria-label="Next page: 测试">
+                <a href="section3.1.html" class="navigation navigation-next " aria-label="Next page: 操作系统">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -381,7 +326,7 @@ function infiniteLoop(): never {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"前端","level":"1.2.1","depth":2,"next":{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},"previous":{"title":"日常汇总","level":"1.2","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"前端","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},{"title":"随手记","level":"1.2.3","depth":2,"path":"chapter1/section1.3.md","ref":"chapter1/section1.3.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/section1.1.md","mtime":"2020-09-09T08:37:42.226Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-09T10:42:02.972Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"学习","level":"1.4","depth":1,"next":{"title":"操作系统","level":"1.4.1","depth":2,"path":"chapter3/section3.1.md","ref":"chapter3/section3.1.md","articles":[]},"previous":{"title":"其他","level":"1.3.2","depth":2,"path":"chapter2/section2.2.md","ref":"chapter2/section2.2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/README.md","mtime":"2020-09-09T10:39:47.423Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-09T10:42:02.972Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
