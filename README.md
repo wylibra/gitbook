@@ -14,5 +14,14 @@ gitbook serve
 ```
 
 ### 部署书籍
+master 分支添加内容之后，使用`gitbook build`编译文件，然后提交代码到远程master分支；
+
+删除远程和本地的 gh-pages 分支；
 ```
+git checkout --orphan gh-pages
+删除_book之外的文件
+cp -r _book/* .
+$ git add .
+$ git commit -m "Publish book"
 ```
+

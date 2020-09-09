@@ -247,9 +247,14 @@
 nvm use 8
 gitbook serve
 </code></pre><h3 id="&#x90E8;&#x7F72;&#x4E66;&#x7C4D;">&#x90E8;&#x7F72;&#x4E66;&#x7C4D;</h3>
-<p><code>
-</code></p>
-
+<p>master &#x5206;&#x652F;&#x6DFB;&#x52A0;&#x5185;&#x5BB9;&#x4E4B;&#x540E;&#xFF0C;&#x4F7F;&#x7528;<code>gitbook build</code>&#x7F16;&#x8BD1;&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x63D0;&#x4EA4;&#x4EE3;&#x7801;&#x5230;&#x8FDC;&#x7A0B;master&#x5206;&#x652F;&#xFF1B;</p>
+<p>&#x5220;&#x9664;&#x8FDC;&#x7A0B;&#x548C;&#x672C;&#x5730;&#x7684; gh-pages &#x5206;&#x652F;&#xFF1B;</p>
+<pre><code>git checkout --orphan gh-pages
+&#x5220;&#x9664;_book&#x4E4B;&#x5916;&#x7684;&#x6587;&#x4EF6;
+cp -r _book/* .
+$ git add .
+$ git commit -m &quot;Publish book&quot;
+</code></pre>
                                 
                                 </section>
                             
@@ -288,7 +293,7 @@ gitbook serve
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"介绍","level":"1.1","depth":1,"next":{"title":"日常汇总","level":"1.2","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"前端","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2020-09-08T03:44:53.326Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-08T03:53:00.769Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"介绍","level":"1.1","depth":1,"next":{"title":"日常汇总","level":"1.2","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"前端","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2020-09-08T05:56:03.860Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-09T03:58:58.042Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
