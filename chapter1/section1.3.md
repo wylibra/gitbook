@@ -60,4 +60,16 @@ service.interceptors.request.use(
   }
 );
 ```
+### 3.obj.fn?.() 是什么意思？
+判断是否存在，存在则执行函数
+```
+function func(){ console.log('ceshi'); }
+var obj ={
+  fn: func
+}
+function test(){
+  obj.fn?.();
+}
+test() // VM1579:1 ceshi
+```
 
