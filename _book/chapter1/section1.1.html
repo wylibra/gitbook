@@ -287,6 +287,7 @@
 <p>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#x8BB0;&#x5F55;</p>
 </blockquote>
 <h3 id="1&#x3001;typescript-&#x91CC;&#x6709;&#x54EA;&#x4E9B;-javascript-&#x6CA1;&#x6709;&#x7684;&#x7C7B;&#x578B;&#xFF1F;">1&#x3001;typescript &#x91CC;&#x6709;&#x54EA;&#x4E9B; javascript &#x6CA1;&#x6709;&#x7684;&#x7C7B;&#x578B;&#xFF1F;</h3>
+<p><code>javascript</code></p>
 <h4 id="11-any">1.1 any</h4>
 <p>&#x58F0;&#x660E;&#x4E3A; any &#x7684;&#x53D8;&#x91CF;&#x53EF;&#x4EE5;&#x8D4B;&#x4E88;&#x4EFB;&#x610F;&#x7C7B;&#x578B;&#x7684;&#x503C;</p>
 <h4 id="12-tuple">1.2 tuple</h4>
@@ -338,7 +339,32 @@ function infiniteLoop(): never {
   get: () =&gt; T;
 }
 </code></pre><h3 id="2&#x3001;bfc-&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x89E6;&#x53D1;-bfc-&#x7684;&#x6761;&#x4EF6;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x6709;&#x54EA;&#x4E9B;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1F;">2&#x3001;BFC &#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x89E6;&#x53D1; BFC &#x7684;&#x6761;&#x4EF6;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x6709;&#x54EA;&#x4E9B;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1F;</h3>
+<p><code>css</code></p>
+<h4 id="1&#x6982;&#x5FF5;">1.&#x6982;&#x5FF5;</h4>
+<p>BFC&#xFF08;Box Formatting context&#xFF09;:Box&#x662F;css&#x5E03;&#x5C40;&#x7684;&#x5BF9;&#x8C61;&#x548C;&#x57FA;&#x7840;&#x5355;&#x4F4D;&#xFF0C;BFC&#x5C31;&#x662F;&#x9875;&#x9762;&#x4E0A;&#x7684;&#x4E00;&#x4E2A;&#x9694;&#x79BB;&#x7684;&#x72EC;&#x7ACB;&#x5BB9;&#x5668;&#xFF0C;&#x5BB9;&#x5668;&#x91CC;&#x9762;&#x7684;&#x5B50;&#x5143;&#x7D20;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x5916;&#x9762;&#x7684;&#x5143;&#x7D20;&#x3002;&#x53CD;&#x4E4B;&#x4E5F;&#x5982;&#x6B64;&#x3002;</p>
+<p>&#x5757;&#x7EA7;&#x683C;&#x5F0F;&#x5316;&#x4E0A;&#x4E0B;&#x6587;&#x5E03;&#x5C40;&#x89C4;&#x5219;</p>
+<ul>
+<li>&#x5185;&#x90E8;&#x7684;BOX&#x4F1A;&#x5728;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x4E00;&#x4E2A;&#x63A5;&#x4E00;&#x4E2A;&#x7684;&#x653E;&#x7F6E;&#xFF1B;</li>
+<li>&#x5C5E;&#x4E8E;&#x540C;&#x4E00;&#x4E2A;BFC&#x7684;&#x4E24;&#x4E2A;&#x76F8;&#x90BB;Box&#x7684;margin&#x4F1A;&#x91CD;&#x53E0;&#xFF1B;&#x4E0D;&#x540C;BFC&#x5C31;&#x4E0D;&#x4F1A;&#xFF1B;</li>
+<li>&#x662F;&#x9875;&#x9762;&#x4E0A;&#x4E00;&#x4E2A;&#x9694;&#x79BB;&#x7684;&#x72EC;&#x7ACB;&#x5BB9;&#x5668;&#xFF0C;&#x91CC;&#x9762;&#x7684;&#x5143;&#x7D20;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x5916;&#x9762;&#x7684;&#x5143;&#x7D20;&#xFF1B;&#x53CD;&#x4E4B;&#x4EA6;&#x7136;&#xFF1B;</li>
+<li>BFC&#x7684;&#x533A;&#x57DF;&#x4E0D;&#x4F1A;&#x548C;float box&#x91CD;&#x53E0;&#xFF1B;</li>
+<li>&#x8BA1;&#x7B97;BFC&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x4E5F;&#x53C2;&#x4E0E;&#x8BA1;&#x7B97;&#xFF1B;</li>
+</ul>
+<h4 id="2&#x89E6;&#x53D1;&#x6761;&#x4EF6;">2.&#x89E6;&#x53D1;&#x6761;&#x4EF6;</h4>
+<ul>
+<li>&#x6839;&#x5143;&#x7D20;( <html> )</html></li>
+<li>&#x6D6E;&#x52A8;&#x5143;&#x7D20;( float&#x5C5E;&#x6027;&#x4E0D;&#x4E3A;none )</li>
+<li>&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#x5143;&#x7D20;( position&#x4E3A;absolute&#x6216;fixed )</li>
+<li>overflow&#x4E0D;&#x4E3A;visible&#x7684;&#x5757;&#x5143;&#x7D20;</li>
+<li>&#x884C;&#x5185;&#x5757;&#x5143;&#x7D20;( display&#x4E3A;inline-block )</li>
+<li>&#x8868;&#x683C;&#x5355;&#x5143;&#x683C;&#x3001;&#x8868;&#x683C;&#x6807;&#x9898;( table-cell&#xFF0C;table-caption )</li>
+<li>&#x5F39;&#x6027;&#x5143;&#x7D20;( flex&#xFF0C;inline-flex )</li>
+</ul>
+<h4 id="3&#x5E94;&#x7528;&#x573A;&#x666F;">3.&#x5E94;&#x7528;&#x573A;&#x666F;</h4>
 <h3 id="3&#x3001;&#x8BF4;&#x8BF4;&#x6D4F;&#x89C8;&#x5668;&#x6E32;&#x67D3;&#x6D41;&#x7A0B;&#xFF0C;&#x5206;&#x5C42;&#x4E4B;&#x540E;&#x5728;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5408;&#x6210;&#xFF0C;&#x4EC0;&#x4E48;&#x662F;&#x91CD;&#x6392;&#x3001;&#x91CD;&#x7ED8;&#xFF0C;&#x600E;&#x6837;&#x6E32;&#x67D3;&#xFF1F;">3&#x3001;&#x8BF4;&#x8BF4;&#x6D4F;&#x89C8;&#x5668;&#x6E32;&#x67D3;&#x6D41;&#x7A0B;&#xFF0C;&#x5206;&#x5C42;&#x4E4B;&#x540E;&#x5728;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5408;&#x6210;&#xFF0C;&#x4EC0;&#x4E48;&#x662F;&#x91CD;&#x6392;&#x3001;&#x91CD;&#x7ED8;&#xFF0C;&#x600E;&#x6837;&#x6E32;&#x67D3;&#xFF1F;</h3>
+<p><code>css</code></p>
+<h3 id="4&#x3001;&#x6709;-1000-&#x4E2A;dom&#xFF0C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x5176;&#x4E2D;&#x7684;-100-&#x4E2A;&#xFF0C;&#x5982;&#x4F55;&#x64CD;&#x4F5C;&#x624D;&#x80FD;&#x51CF;&#x5C11;-dom-&#x7684;&#x64CD;&#x4F5C;&#xFF1F;">4&#x3001;&#x6709; 1000 &#x4E2A;dom&#xFF0C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x5176;&#x4E2D;&#x7684; 100 &#x4E2A;&#xFF0C;&#x5982;&#x4F55;&#x64CD;&#x4F5C;&#x624D;&#x80FD;&#x51CF;&#x5C11; dom &#x7684;&#x64CD;&#x4F5C;&#xFF1F;</h3>
+<p><code>javascript</code></p>
 
                                 
                                 </section>
@@ -382,7 +408,7 @@ function infiniteLoop(): never {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"前端","level":"1.2.1","depth":2,"next":{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},"previous":{"title":"日常汇总","level":"1.2","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"前端","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},{"title":"随手记","level":"1.2.3","depth":2,"path":"chapter1/section1.3.md","ref":"chapter1/section1.3.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/section1.1.md","mtime":"2020-09-10T08:43:14.090Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-09T10:42:02.972Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"前端","level":"1.2.1","depth":2,"next":{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},"previous":{"title":"日常汇总","level":"1.2","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"前端","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},{"title":"测试","level":"1.2.2","depth":2,"path":"chapter1/section1.2.md","ref":"chapter1/section1.2.md","articles":[]},{"title":"随手记","level":"1.2.3","depth":2,"path":"chapter1/section1.3.md","ref":"chapter1/section1.3.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/section1.1.md","mtime":"2020-09-11T10:47:53.946Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-09-09T10:42:02.972Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
