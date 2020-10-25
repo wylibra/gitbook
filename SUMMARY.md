@@ -8,8 +8,3 @@
 * [网站资源](chapter2/README.md)
     * [工作](chapter2/section2.1.md)
     * [生活](chapter2/section2.2.md)
-* [学习](chapter3/README.md)
-    * [操作系统](chapter3/section3.1.md)
-    * [测试开发入门](chapter3/section3.2.md)
-
-

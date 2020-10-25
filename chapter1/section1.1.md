@@ -89,16 +89,5 @@ BFC（Box Formatting context）:Box是css布局的对象和基础单位，BFC就
 - 表格单元格、表格标题( table-cell，table-caption )
 - 弹性元素( flex，inline-flex )
 
-#### 3.应用场景
-
-
-### 3、说说浏览器渲染流程，分层之后在什么时候合成，什么是重排、重绘，怎样渲染？
-`css`
-
-
-### 4、有 1000 个dom，需要更新其中的 100 个，如何操作才能减少 dom 的操作？
-`javascript`
-
-
 
 
